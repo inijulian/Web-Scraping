@@ -50,7 +50,6 @@ for a in range(10):
             (namaToko, lokasi, namaProduk, hargaProduk, jual, rate)
             )
 
-
     time.sleep(2)
     driver.find_element(By.CSS_SELECTOR, "button[aria-label^='Laman berikutnya']").click()
     time.sleep(3)
